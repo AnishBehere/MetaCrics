@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <MainHeader>
       <NavLink to="/">
-        <img src="./images/logo.png" alt="logo" className="logo" />
+       <h2>MetaCrics</h2>
       </NavLink>
       <Navbar />
     </MainHeader>
@@ -17,7 +17,6 @@ const Header = () => {
 const MainHeader = styled.header`
   padding: 0 4.8rem;
   height: 10rem;
-  background-color: ${({ theme }) => theme.colors.bg};
   display: flex;
   justify-content: space-between;
   align-items: center;

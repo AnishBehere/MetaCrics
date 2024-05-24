@@ -6,7 +6,7 @@ const AppContext = React.createContext();
 const API = "https://thapareactapi.up.railway.app";
 
 const intialState = {
-  name: "",
+  name: "metaCrics",
   image: "",
   services: [],
 };
@@ -18,7 +18,7 @@ const AppProvider = ({ children }) => {
     return dispatch({
       type: "HOME_UPDATE",
       payload: {
-        name: "Thapa Technical",
+        name: "Anish Behere ",
         image: "./images/hero.svg",
       },
     });
@@ -28,7 +28,7 @@ const AppProvider = ({ children }) => {
     return dispatch({
       type: "ABOUT_UPDATE",
       payload: {
-        name: "Vinod Thapa",
+        name: "Anish Behere",
         image: "./images/about1.svg",
       },
     });

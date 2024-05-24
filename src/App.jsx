@@ -15,7 +15,7 @@ const App = () => {
     colors: {
       heading: "rgb(24 24 29)",
       text: "rgb(24 24 29)",
-      white: "#fff",
+      white: "#ffff",
       black: " #212529",
       helper: "#8490ff",
       bg: "rgb(249 249 255)",
@@ -45,7 +45,6 @@ const App = () => {
           <Route path="/contact" element={<Contact />} />
           <Route path="*" element={<Error />} />
         </Routes>
-
         <Footer />
       </BrowserRouter>
     </ThemeProvider>

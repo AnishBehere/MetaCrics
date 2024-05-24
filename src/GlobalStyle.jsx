@@ -17,6 +17,7 @@ html {
 body {
   overflow-x: hidden;
    scrollbar-color: rgb(98 84 243);
+   background: linear-gradient(135deg, #ff0000, #0000ff);
     scrollbar-width: thin;
 }
 
@@ -30,7 +31,7 @@ body::-webkit-scrollbar-track {
 
 body::-webkit-scrollbar-thumb {
  
-  background: #fff;
+  background: linear-gradient(135deg, #ff6b6b, #556270);
     border: 5px solid transparent;
     border-radius: 9px;
     background-clip: content-box;
@@ -156,7 +157,7 @@ li {
       .grid-two-column, .grid-three-column, .grid-four-column{
         grid-template-columns: 1fr;
       }
-}
+}`
 
 
-`;
+;

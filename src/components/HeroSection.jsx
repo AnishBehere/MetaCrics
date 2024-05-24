@@ -14,8 +14,7 @@ const HeroSection = () => {
           <p className="hero-top-data">THIS IS ME</p>
           <h1 className="hero-heading">{name}</h1>
           <p className="hero-para">
-            I'm {name}. A Full stack Developer, youtuber and freelancer. A Full
-            stack Developer, youtuber and freelancer.
+            I'm {name}. A Full stack Developer, youtuber and freelancer.
           </p>
           <Button className="btn hireme-btn">
             <NavLink to="/contact"> hire me </NavLink>
@@ -34,6 +33,7 @@ const HeroSection = () => {
 };
 
 const Wrapper = styled.section`
+
   padding: 9rem 0;
 
   .section-hero-data {
@@ -47,10 +47,10 @@ const Wrapper = styled.section`
   }
 
   .hero-top-data {
+    color: #333;
     text-transform: uppercase;
     font-weight: 500;
     font-size: 1.5rem;
-    color: ${({ theme }) => theme.colors.helper};
   }
 
   .hero-heading {
@@ -82,7 +82,7 @@ const Wrapper = styled.section`
     .grid {
       gap: 7.2rem;
     }
-  }
-`;
+  }`
+;
 
 export default HeroSection;
